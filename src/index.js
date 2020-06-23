@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import * as serviceWorker from './serviceWorker';
-import { Search } from './components/navbar/search';
+import { Search } from './components/search/search';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>

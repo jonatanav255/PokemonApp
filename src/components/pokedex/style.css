@@ -1,63 +1,30 @@
-body{
-    background-color: rgb(54, 132, 204);
-}
-p {
-    margin: 0;
+.Pokeinfoblock {
+  background-color: rgb(255, 127, 80);
+  margin-top: 30px;
+  padding-top: 1px;
+  height: 12em;
 }
 
-.mytest{
-    background-color: white
-}
-.arrowsec{
-    background-color:white
-}
-.containerPoke{
-    background-color: rgba(250, 60, 12, 0.924);
-    border-radius: 5px;
-    padding: 20px;
-    width: 15.5em;
-    justify-self: center;
-  
-}
 .Pokedex {
-    background:white;
-    border-radius: 10px;
-    width: 13em;
-    height: 20em;
-    
- 
-  
+  background-color: rgba(255, 99, 71);
+  border-radius: 5px;
+  padding: 20px;
+  width: 15.5em;
+  justify-self: center;
 }
 
 .Pokeimg {
-    text-align: center;
-    background-color: rgb(88, 211, 233);
-    
-    
-    
+  text-align: center;
+  background-color: rgb(88, 211, 233);
 }
 
-
 .Pokenumber {
-    text-align: center;
-           
+  text-align: center;
 }
 
 .Pokeinfo {
-    
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: 800;
-    padding-bottom: 15px;
-   
-   
-}
-
-.Pokedata {
-    padding-bottom: 10px;
-}
-
-.Pokedata .title {
-    font-weight: 700;
-
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 800;
+  padding-bottom: 15px;
 }

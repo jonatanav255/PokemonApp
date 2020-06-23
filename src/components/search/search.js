@@ -1,30 +1,35 @@
 import React, { useState, Fragment } from 'react';
-import Navbar from '../navbar/navbar'
-import App from './../../App'
+import './style.css';
+import App from '../../App'
 
 
-export function Search({ lista }) {
+
+
+export function Search() {
     const [data, setData] = useState('');
     const search = (e) => {
         setData(e.target.value)
+        console.log(e.target.value);
     }
-    console.log(lista);
+
 
     return (
         <div>
-            <Navbar />
-            <div>
+            <div className="Navbar">
 
-
-                <input
+                <div>Serch your pokemon  <input
                     type="text"
                     value={data}
                     onChange={search}
-                />
-
+                /></div>
             </div>
+
             <App str={data} />
         </div>
+
+
+
+
     )
 };
 
